@@ -1,7 +1,7 @@
 GREEN="%{$fg_bold[green]%}"
-YELLOW="%{$fg[yellow]%}"
-CYAN="%{$fg[cyan]%}"
-RED="%{$fg[red]%}"
+YELLOW="%{$fg_bold[yellow]%}"
+CYAN="%{$fg_bold[cyan]%}"
+RED="%{$fg_bold[red]%}"
 RESET="%{$reset_color%}"
 
 PROMPT='$GREEN⬢  $YELLOW%c $(git_prompt_info) $RESET'
